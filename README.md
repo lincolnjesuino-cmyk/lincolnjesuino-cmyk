@@ -10,7 +10,7 @@ Open to **remote** full-stack and AI engineering roles · English (fluent) · Po
 
 ---
 
-### Featured project
+### Featured projects
 
 **[CNPJ Due Diligence Agent](https://github.com/lincolnjesuino-cmyk/cnpj-due-diligence-agent)** — **[▶ live demo](https://lincolnjesuino-cmyk.github.io/cnpj-due-diligence-agent/?demo)**<br>
 An AI agent (Claude API) that runs KYB / vendor due diligence on Brazilian companies using official public data. It follows the ownership chain into shareholder companies and streams a sourced risk report.
@@ -18,7 +18,11 @@ An AI agent (Claude API) that runs KYB / vendor due diligence on Brazilian compa
 - Deterministic, unit-tested risk engine · strict tool schemas · structured outputs
 - Behavioral evals, 39 automated tests, CI, Docker · Python · FastAPI · React · TypeScript
 
-**Next up:** an open agricultural-data platform for Brazil's farming frontier (Laravel API + React dashboard, IBGE public data).
+**[Brazil Crop Atlas](https://github.com/lincolnjesuino-cmyk/brazil-crop-atlas)** — **[▶ live site](https://lincolnjesuino-cmyk.github.io/brazil-crop-atlas/)**<br>
+An interactive atlas of municipal crop production in Western Bahia — one of the world's largest grain frontiers — on 25 years of IBGE open data.
+- Laravel API with an idempotent importer, area-weighted analytics and versioned caching
+- React + TypeScript dashboard: choropleth map, rankings, trends, accessible table view, dark mode
+- Data refreshes itself monthly via GitHub Actions · 32 automated tests · Docker · PHP · Laravel · React · TypeScript
 
 ---
 
