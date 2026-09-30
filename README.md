@@ -2,27 +2,25 @@
 
 ## Hi, I'm Lincoln 👋
 
-Full-stack developer focused on **automation and AI agents**. I build products end to end — database, API, UI — and I like the kind of software that quietly takes repetitive work off people's plates.
+I'm a full-stack developer in Brazil. I lead software development at an environmental consulting firm, where I maintain the internal **Django** system, built four web applications with **Laravel and React**, and wrote **Python bots and AI agents** that automate lookups on government portals. Before that I worked in data analytics (Power BI on AWS) for agribusiness.
 
-Today I lead development at a consulting firm in Brazil: I own the company's core platform, ship new products from zero to production with **Laravel + React**, and build **Python RPA bots and AI agents** that automate checks against government systems. Before that I worked in data analytics (Power BI on AWS) for agribusiness.
-
-Open to **remote** full-stack and AI engineering roles · English (fluent) · Portuguese (native) · UTC−3
+Looking for **remote** full-stack or AI engineering roles. English (fluent), Portuguese (native), UTC−3.
 
 ---
 
 ### Featured projects
 
 **[CNPJ Due Diligence Agent](https://github.com/lincolnjesuino-cmyk/cnpj-due-diligence-agent)** — **[▶ live demo](https://lincolnjesuino-cmyk.github.io/cnpj-due-diligence-agent/?demo)**<br>
-An AI agent (Claude API) that runs KYB / vendor due diligence on Brazilian companies using official public data. It follows the ownership chain into shareholder companies and streams a sourced risk report.
-- Facts and risk score come from code; the LLM only writes the narrative — no hallucinated facts
-- Deterministic, unit-tested risk engine · strict tool schemas · structured outputs
-- Behavioral evals, 39 automated tests, CI, Docker · Python · FastAPI · React · TypeScript
+An agent built on the Claude API that vets Brazilian companies using public records. It also checks the companies listed as shareholders and writes a risk report with sources.
+- Facts and the risk score are computed in code; the model only writes the report text
+- Strict tool schemas, structured outputs, a unit-tested risk engine
+- Behavioral evals, 39 automated tests, CI, Docker. Python, FastAPI, React, TypeScript
 
 **[Brazil Crop Atlas](https://github.com/lincolnjesuino-cmyk/brazil-crop-atlas)** — **[▶ live site](https://lincolnjesuino-cmyk.github.io/brazil-crop-atlas/)**<br>
-An interactive atlas of municipal crop production in Western Bahia — one of the world's largest grain frontiers — on 25 years of IBGE open data.
-- Laravel API with an idempotent importer, area-weighted analytics and versioned caching
-- React + TypeScript dashboard: choropleth map, rankings, trends, accessible table view, dark mode
-- Data refreshes itself monthly via GitHub Actions · 32 automated tests · Docker · PHP · Laravel · React · TypeScript
+An interactive atlas of crop production in the 24 municipalities of Western Bahia, using IBGE data from 2000 to 2025.
+- Laravel API that imports IBGE data without duplicating records and computes the indicators
+- React and TypeScript front end with a map, rankings, trends, a table view and dark mode
+- A monthly GitHub Actions job refreshes the data. 32 automated tests, Docker. PHP, Laravel, React, TypeScript
 
 ---
 
@@ -35,4 +33,4 @@ An interactive atlas of municipal crop production in Western Bahia — one of th
 
 ---
 
-📫 **[LinkedIn](https://www.linkedin.com/in/lincolnmassari)** — the best way to reach me.
+You can reach me on **[LinkedIn](https://www.linkedin.com/in/lincolnmassari)**.
